@@ -14,10 +14,12 @@ class LinkedList { // create a linked list
   }
 
   isEmpty() { // check if its empty
+    console.log('The List is empty ')
     return this.size === 0
   }
 
   getSize() { // return size or number of items in the list
+    console.log('The List is ')
     return this.size
   }
 
@@ -179,3 +181,35 @@ class LinkedList { // create a linked list
     }
   }
 }
+
+
+// Testing code
+
+const list = new LinkedList();
+console.log(list.isEmpty())
+console.log(list.getSize())
+
+list.toString()
+list.prepend(10)
+list.toString()
+list.append(60)
+list.append(90)
+list.prepend(20)
+list.prepend(30)
+list.toString()
+list.insertAt(100, 0)
+list.toString()
+list.insertAt(120, 4)
+list.toString()
+console.log(list.removeAt(4))
+list.toString()
+console.log(list.getSize())
+console.log(list.find(10))
+console.log(list.contains(10))
+console.log(list.getHead())
+console.log(list.getTail())
+console.log(list.pop())
+list.toString()
+console.log(list.getTail())
+list.toString()
+console.log(list.at(3))
