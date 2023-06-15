@@ -1,1 +1,2 @@
 # linked-list
+I had to create a Linked List using JavaScript. This was much more difficult than I thought it would be. The implementation was simple enough but the some of the methods took a lot of brain power to understand the algorithms involved. It was a lot of fun and I will be creating more of these list so that I can get used to creating them.
